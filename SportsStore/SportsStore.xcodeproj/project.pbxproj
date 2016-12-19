@@ -12,6 +12,7 @@
 		79507D891E07E95D0010008E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79507D871E07E95D0010008E /* Main.storyboard */; };
 		79507D8B1E07E95D0010008E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79507D8A1E07E95D0010008E /* Assets.xcassets */; };
 		79507D8E1E07E95D0010008E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79507D8C1E07E95D0010008E /* LaunchScreen.storyboard */; };
+		79507D961E07F6450010008E /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79507D951E07F6450010008E /* ProductTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		79507D8A1E07E95D0010008E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79507D8D1E07E95D0010008E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79507D8F1E07E95D0010008E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79507D951E07F6450010008E /* ProductTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				79507D831E07E95D0010008E /* AppDelegate.swift */,
 				79507D851E07E95D0010008E /* ViewController.swift */,
+				79507D951E07F6450010008E /* ProductTableCell.swift */,
 				79507D871E07E95D0010008E /* Main.storyboard */,
 				79507D8A1E07E95D0010008E /* Assets.xcassets */,
 				79507D8C1E07E95D0010008E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79507D961E07F6450010008E /* ProductTableCell.swift in Sources */,
 				79507D861E07E95D0010008E /* ViewController.swift in Sources */,
 				79507D841E07E95D0010008E /* AppDelegate.swift in Sources */,
 			);
@@ -263,10 +267,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5W8743PRFN;
 				INFOPLIST_FILE = SportsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borderXLab.SportsStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -276,10 +282,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5W8743PRFN;
 				INFOPLIST_FILE = SportsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borderXLab.SportsStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
